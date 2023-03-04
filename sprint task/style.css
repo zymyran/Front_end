@@ -42,13 +42,35 @@ h2 {
 }
 
 .bd {
+    display: flex;
     margin-top: 10px;
     height: 500px;
-    padding-top: 15px;
-    background-color: rgb(9, 219, 234);
+    padding: 10px;
+    background-color: rgba(72, 242, 254, 0.678);
 }
 
-img {
-    margin: auto;
-    max-width: 500px;
+.photo {
+    width: 50%;
+    
+}
+
+.picture {
+    padding-top: 15px;
+    padding-left: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.des {
+    margin-left: 50px;
+    width: 60%;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
