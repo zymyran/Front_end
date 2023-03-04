@@ -74,3 +74,115 @@ p {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.main {
+    text-align: center;
+}
+
+.news .nw {
+    font-size: 35px;
+}
+
+.card {
+    display: flex;
+    height: 400px;
+}
+
+.first {
+    margin-left: 30px;
+    border: 1px solid rgb(129, 122, 122);
+    width: 25%;
+}
+
+.first .zad {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-left: 10px;
+    text-align: center;
+}
+.first .p {
+    font-size: 15px;
+    width: 80%;
+}
+.first img {
+    width: 100%;
+}
+
+.second {
+    border: 1px solid rgb(129, 122, 122);
+    width: 25%;
+    margin-left: 20px;
+}
+.second .zad {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-left: 10px;
+    text-align: center;
+}
+.second .p {
+    font-size: 15px;
+    width: 80%;
+}
+.second img {
+    width: 100%;
+}
+
+
+.third {
+    border: 1px solid rgb(129, 122, 122);
+    width: 25%;
+    margin-left: 20px;
+
+}
+
+.third .zad {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-left: 10px;
+    text-align: center;
+}
+.third .p {
+    font-size: 15px;
+    width: 80%;
+}
+.third img {
+    width: 100%;
+}
+
+.fourth {
+    /* border: 1px solid rgb(129, 122, 122); */
+    border: 1px solid rgb(129, 122, 122);
+
+    width: 25%;
+    margin-left: 20px;
+    margin-right: 30px;
+
+}
+
+.fourth .zad {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-left: 10px;
+    text-align: center;
+}
+.fourth .p {
+    margin-left: 5px;
+    font-size: 15px;
+    width: 80%;
+
+}
+.fourth img {
+    width: 100%;
+}
+
+button {
+    background-color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 310px;
+    width: 100px;
+    height: 25px;
+    border: none;
+    color: white;
+
+}
+
