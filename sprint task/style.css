@@ -73,6 +73,7 @@ h1 {
 p {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+    z-index: 1000000;
 }
 
 .main {
@@ -150,13 +151,10 @@ p {
 }
 
 .fourth {
-    /* border: 1px solid rgb(129, 122, 122); */
     border: 1px solid rgb(129, 122, 122);
-
     width: 25%;
     margin-left: 20px;
     margin-right: 30px;
-
 }
 
 .fourth .zad {
