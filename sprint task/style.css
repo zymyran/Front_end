@@ -1,0 +1,54 @@
+.header{
+    display: flex;
+    margin: 0px;
+    background-color: rgba(177, 0, 0, 0.929);
+    height: 80px;
+}
+
+.header .left {
+    width: 25%;
+    height: 80px;
+}
+
+.text {
+    margin: auto;
+    margin-top: 5px;   
+}
+
+.header .right {
+    width: 75%;
+}
+
+.info {
+    margin-left: 900px;
+    margin-top: 30px;
+    width: 40%;
+    font-size: 18px;
+    text-align: center;
+}
+ 
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+
+h2 {
+    text-align: center;
+    margin-left: 25px;
+    position: absolute;
+    color: white;
+
+}
+
+.bd {
+    margin-top: 10px;
+    height: 500px;
+    padding-top: 15px;
+    background-color: rgb(9, 219, 234);
+}
+
+img {
+    margin: auto;
+    max-width: 500px;
+}
