@@ -1,0 +1,321 @@
+.header {
+    display: flex;
+    margin: 0px;
+    height: 60px;
+    background-color: rgba(0, 70, 132, 0.857);
+}
+
+body {
+    background-color: #f0f0f0e2;
+}
+
+.header p {
+    color: white;
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 150px;
+    line-height: 55px;
+}
+
+.search-input{
+    background-position: 10px 10px; 
+    border-radius: 15px;
+    border: none;
+    box-sizing: border-box;
+    margin-left: 140px;
+    height: 32px;
+    margin-top: 15px;
+    text-align: start;
+    background-color: rgb(21, 49, 105) ;
+    /* box-shadow:0 0 15px 4px rgba(0,0,0,0.06); */
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.main {
+    background-color: #f0f0f0e2;
+    display: flex;
+    height: auto;
+    
+}
+
+.left {
+    margin-left: 300px;  
+}
+
+ul {
+    margin-top: 25px;
+}
+
+div {
+    /* border: 1px solid black; */
+}
+li {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+a {
+    color: rgb(9, 7, 87);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.main_photo {
+    display: block;
+    margin-top: 15px;
+    margin-left: 75px;
+    height: 410px;
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.main_photo .messi {
+    /* justify-content: center; */
+    padding: 5px;
+    margin: 12px;
+    height: 320px;
+    width: 270px;
+}
+
+.btn {
+    width: 270px;
+    height: 38px;
+    margin-left: 16px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color: rgb(9, 7, 87);
+}
+
+.all {
+    width: 850px;
+    height: 400px;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.info {
+    display: flex;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-bottom: 3px solid #f0f0f0e2;
+    
+}
+
+.name {
+    display: inline-block;
+    margin-top: 10px;
+    height: 72px;
+    color: rgb(9, 7, 87);
+}
+
+.first {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.sec {
+    font-size: 18px;
+}
+
+.onl {
+    height: 30px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 71%;
+}
+
+.second {
+    display: flex;
+    width: 815  px;
+    height: 200px;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 15px;
+    border-bottom: 3px solid #f0f0f0e2;
+}
+
+.l {
+    width: 40%;
+    height: 50px;
+}
+
+.l li {
+    font-size: 17px;
+    color: rgb(9, 7, 87);
+}
+
+.r {
+    width: 60%;
+    height: 50px;
+    margin-right: 15px;
+
+}
+.r li {
+    font-size: 17px;
+    color: rgb(9, 7, 87);
+}
+
+.third {
+    margin-top: 10px;
+    display: flex;
+    margin-left: 35px;
+}
+
+.third ul li{
+    margin-right: 85px;
+    font-size: 25px;
+}
+
+.third p{
+    margin-right: 70px;
+    color: rgb(21, 49, 105);
+    text-align: center;
+}
+
+.second_main {
+    display: flex;
+    height: 200px;
+    background-color: #f0f0f0e2;
+    border-radius: 5px;
+}
+
+.fri {
+    background-color: white;
+    height: 270px;
+    width: 300px;
+    margin-left: 494px;
+    margin-top: 10px;
+    border-radius: 6    px;
+}
+
+.friends {
+    display: block;
+    height: 20px;
+    width: 100%;
+    margin-top: 22px;
+    margin-left: 15px;
+    font-size: 20px;
+    color: rgb(21, 49, 105);
+}
+
+.frow {
+    display: flex;
+    margin-top: 10px;
+    height: 40%;
+    width: 100%;
+    margin-left: 24px;
+    text-align: center;
+
+}
+
+.frow p{
+    text-align: center;
+    margin-left: -15px;
+}
+
+.frow img{     
+    margin-right: 15px;  
+    width: 75px;     
+    border: none;
+    height: 75px;
+    border-radius: 1000px;
+    
+}
+
+.srow img {
+    margin-right: 15px;  
+    width: 75px;     
+    border: none;
+    height: 75px;
+    border-radius: 1000px;
+
+}
+
+.srow{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 24px;
+    height: 40%;
+    width: 100%;
+}
+
+.srow p{
+    justify-content: center;
+    margin-left: 7px;
+}
+
+.photo {
+    display: block;
+    width: 850px;
+    height: 270px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.Photo {
+    margin: 20px;
+    font-size: 22px;
+    height: 25px;
+    color: rgb(9, 7, 87);
+}
+
+
+.photo img {
+    height: 175px;
+    width: 187px;
+    margin-right: 20px;
+}
+
+.All {
+    display: flex;
+    margin-left: 20px;
+}
+
+.post {
+    display: block;
+    margin-top: 100px;
+    margin-left: 814px;
+    height: 200px;
+    width: 850px;
+    background-color: white;
+    border-radius: 5px;
+}
+.wrapper {
+    display: flex;
+    background-color: white;
+}
+
+.wrapper .Name {
+    margin-top: 25px;
+    font-size: 20px;
+    color: rgb(9, 7, 87);
+}
+
+.Name p{
+    margin-top: 10px;
+    color: black;
+    font-size: 15px;
+}
+.image img {
+    margin: 15px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.words {
+    margin: 0px 0px 0px 15px;
+    font-size: 20px;
+}
