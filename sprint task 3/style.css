@@ -1,0 +1,79 @@
+.main {
+    display: flex;
+    height: 150px;
+    background-color: rgb(255, 251, 251);
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 6px;
+
+}
+
+
+
+.first {
+    font-size: 22px;
+    margin: auto;
+    width: 25%;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.second {
+    font-size: 22px;
+    margin: auto;
+    width: 25%;
+    text-align: center;
+
+}
+
+.third {
+    font-size: 22px;
+    margin: auto;
+    width: 25%;
+    text-align: center;
+}
+
+.fourth {
+    font-size: 22px;
+    margin: auto;
+    width: 25%;
+    text-align: center;
+}
+
+.fi {
+    display: flex;
+}
+
+.fi  select{
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 32px;
+    border: none;
+    font-size: 16px;
+
+}
+.first .fi input {
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 18px;
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;   
+    margin-left: 25px;
+
+}
+.f input{
+    margin-top: 15px;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(232, 232, 232);
+    border-radius: 2px;
+    border: none;
+    font-size: 18px;
+}
+
+.cur {
+    margin-left: -100px;
+}
