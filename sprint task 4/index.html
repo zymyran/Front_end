@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="remove.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Sprint task 4</title>
+</head>
+<body>
+     
+    <div class="header">
+        <p>TWITTER</p>
+        <div class="info">
+            <a href="#">Tweets</a>
+            <a href="login.html" target="_blank">Login</a>
+            <a href="#">Register</a>
+        </div>
+    </div>
+    <div class="welcome">
+        <p id="first"></p>
+    </div>
+    <div class="main">
+        <div class="email">
+            <p>EMAIL:</p><br>
+            <input type="text" id="email">
+        </div>
+        <div class="password">
+            <p>PASSWORD:</p><br>
+            <input type="password" id="password">
+        </div>
+        <div class="full_name">
+            <p>FULL NAME:</p> <br>
+            <input type="text" id="full_name">
+        </div>
+        <div class="country">
+            <p>COUNTRY:</p> <br>
+            <select name="country" id="country">
+                <option value="KAZAKHSTAN">KAZAKHSTAN</option>
+                <option value="USA">USA</option>
+                <option value="RUSSIA">RUSSIA</option>
+            </select>   
+        </div>
+        <div class="date">
+            <p>BIRTH DATE:</p> <br>
+            <input type="date" placeholder="mm/dd/yyyy" id="date">
+        </div>
+        <div class="btn">
+            <button class="register" id="register" onclick="addUser()">REGISTER</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
